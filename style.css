@@ -1,0 +1,387 @@
+.menu {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style-type: none;
+}
+
+.drop1 {
+    /* border: 1px solid yellow; */
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    margin-top: 20px;
+    /* display: flex; */
+    justify-content: space-around;
+    padding-left: 0px;
+}
+
+.nav {
+    /* border: 1px solid black; */
+    display: flex;
+    height: 30px;
+    padding-top: 50px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.dropdown:hover .drop1 {
+    display: flex;
+}
+
+.logo {
+    width: 30px;
+    height: 20px;
+    /* border: 1px solid black; */
+    /* margin-bottom: 50px; */
+}
+
+.btns {
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+
+.btn1 {
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.btn2 {
+    background-color: #3ea9f5;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+.btnwatch {
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.section1 {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    height: 600px;
+    background-color: #c896a5;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+    justify-content: space-around;
+}
+
+.text {
+    font-family: Walsheim;
+    font-size: 41.6px;
+    font-weight: 400;
+    line-height: 49.92px;
+    color: rgb(54, 57, 69)
+}
+
+.parttesxt {
+    color: white;
+}
+
+.section2 {
+    /* border: 1px solid blue; */
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+.section-yellow {
+    background-color: #fed24a;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-yellow1 {
+    font-family: Walsheim;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(255, 255, 255)
+}
+
+.text-yellow2 {
+    font-family: Walsheim;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: rgb(42, 45, 53)
+}
+
+.section-green {
+    background-color: #51c29f;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-blue {
+    background-color: #3ea9f5;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-yellow {
+    background-color: #fed24a;
+    border: 2px solid white;
+    color: rgb(42, 45, 53);
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.btn-green {
+    background-color: #51c29f;
+    border: 2px solid white;
+    color: rgb(42, 45, 53);
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn-blue {
+    background-color: #3ea9f5;
+    border: 2px solid white;
+    color: rgb(42, 45, 53);
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.section3 {
+    /* border: 1px solid yellow; */
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.image1 {
+    width: 16.66%;
+}
+
+.image2 {
+    width: 16.66%;
+}
+
+.image3 {
+    width: 16.66%;
+}
+
+.image4 {
+    width: 16.66%;
+}
+
+.image5 {
+    width: 16.66%;
+}
+
+.text-sect3 {
+    font-family: Walsheim;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.4px;
+    color: rgb(156, 168, 183)
+}
+
+.diva {
+    margin-top: 20px;
+}
+
+.divlogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btnf {
+    background-color: #3ea9f5;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.section4 {
+    /* border: 1px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section41 {
+    width: 33.33%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section42 {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section43 {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image41 {
+    width: 350px;
+    height: 250px;
+}
+
+.image42 {
+    width: 350px;
+    height: 250px;
+}
+
+.image43 {
+    width: 350px;
+    height: 250px;
+}
+
+.text41 {
+    font-family: Walsheim;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: rgb(42, 45, 53)
+}
+
+.text411 {
+    font-family: Walsheim;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(42, 45, 53)
+}
+
+.section5 {
+    /* border: 1px solid green; */
+    height: 70px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text5 {
+    font-family: Walsheim;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: rgb(54, 57, 69)
+}
+
+.text51 {
+    font-family: Walsheim;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: rgb(91, 107, 127)
+}
+
+.section6 {
+    /* border: 1px solid black; */
+    height: 450px;
+    background-color: #2a2d35;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section61 {
+    /* border: 1px solid red; */
+    width: 35%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section62 {
+    /* border: 1px solid gold; */
+    width: 60%;
+    height: 64%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.text6 {
+    font-family: Walsheim;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    color: rgb(255, 255, 255)
+}
+
+.text60 {
+    font-family: Walsheim;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255)
+}
+
+.text61 {
+    font-family: Walsheim;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(58, 177, 106)
+}
+
+.text63 {
+    font-family: Walsheim;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: rgb(178, 185, 193)
+}
+
+.section63 {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p~span {
+    color: #9ca8b7;
+}
